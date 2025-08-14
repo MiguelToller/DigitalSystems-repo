@@ -30,4 +30,4 @@ onde o LED acende apenas quando **todos os botões** estão pressionados simulta
 
 ## Código
 O código configura os três botões como entradas com `INPUT_PULLUP` e o LED como saída.  
-Se todos os botões estiverem pressionados (`LOW`), o LED é ligado. [Ver código](https://github.com/MiguelToller/DigitalSystems-repo/blob/main/SistemaLed/sistemaLed.ino)
+Se todos os botões estiverem pressionados (`LOW`), o LED é ligado. [Ver código](https://github.com/MiguelToller/DigitalSystems-repo/blob/main/SistemaLed/SistemaLed.ino)
