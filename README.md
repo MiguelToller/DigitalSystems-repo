@@ -1,6 +1,6 @@
-# Disciplina de Laboratório de Sistemas Digitais
+# Disciplina de Sistemas Digitais
 
-Este repositório contém os projetos e estudos realizados na disciplina de Laboratório de Sistemas Digitais.
+Este repositório contém os projetos e estudos realizados na disciplina de Sistemas Digitais.
 
 ## Licença  
 Este projeto está licenciado sob os termos da licença MIT.  
@@ -13,4 +13,4 @@ Curso de Ciência da Computação – Universidade Franciscana (UFN)
 - E-mail: [luizmigueltoller@gmail.com](mailto:luizmigueltoller@gmail.com)  
 - GitHub: [@MiguelToller](https://github.com/MiguelToller)
 
-> Este repositório tem cunho acadêmico e foi desenvolvido com fins de aprendizado e aplicação dos conceitos de Laboratório de Sistemas Digitais.
+> Este repositório tem cunho acadêmico e foi desenvolvido com fins de aprendizado e aplicação dos conceitos de Sistemas Digitais.
