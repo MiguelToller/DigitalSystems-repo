@@ -1,21 +1,19 @@
 # SistemaLed
 
-Este projeto, de **cunho acadêmico**, foi desenvolvido na **Universidade Franciscana (UFN)** na disciplina de **Sistemas Digitais**.  
-O objetivo é simular um circuito lógico de **3 entradas** usando botões no Arduino.  
-Quando **os três botões** estão pressionados simultaneamente, o **LED** acende.
+O objetivo é representar um circuito lógico de **3 entradas** utilizando botões no Arduino,  
+onde o LED acende apenas quando **todos os botões** estão pressionados simultaneamente.
+
+> Projeto acadêmico desenvolvido na **Universidade Franciscana (UFN)**, na disciplina de **Sistemas Digitais**.  
 
 ## Imagens do Projeto
 
 <p align="center">
   <img src="https://github.com/MiguelToller/DigitalSystems-repo/blob/main/SistemaLed/Imagens/LedOff.jpg" alt="LED desligado" width="400"/>
-  <br>
-  <em>LED desligado (nenhuma ou não todas as entradas ativas)</em>
+  <img src="https://github.com/MiguelToller/DigitalSystems-repo/blob/main/SistemaLed/Imagens/LedOn.jpg" alt="LED ligado" width="400"/>
 </p>
 
 <p align="center">
-  <img src="https://github.com/MiguelToller/DigitalSystems-repo/blob/main/SistemaLed/Imagens/LedOn.jpg" alt="LED ligado" width="400"/>
-  <br>
-  <em>LED ligado (todas as três entradas ativas)</em>
+  <em>À esquerda: LED desligado — À direita: LED ligado</em>
 </p>
 
 ## Componentes Utilizados
