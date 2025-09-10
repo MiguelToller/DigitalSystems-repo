@@ -1,0 +1,15 @@
+Vivado Simulator 2015.1
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2015.1/bin/unwrapped/win64.o/xelab.exe -wto 0b70e433e8e7477ba68788684af1536e --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_maquina_venda_behav xil_defaultlib.tb_maquina_venda -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package ieee.std_logic_1164
+Compiling architecture moore of entity xil_defaultlib.maquina_venda [maquina_venda_default]
+Compiling architecture behavioral of entity xil_defaultlib.tb_maquina_venda
+Waiting for 2 sub-compilation(s) to finish...
+Built simulation snapshot tb_maquina_venda_behav

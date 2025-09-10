@@ -1,0 +1,4 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/laboratorio/Desktop/Detector_101/Detector_101.srcs/sources_1/new/detector_101.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity detector_101
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/laboratorio/Desktop/Detector_101/Detector_101.srcs/sim_1/new/tb_detector_101.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity tb_detector_101

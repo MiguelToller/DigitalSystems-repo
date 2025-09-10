@@ -1,0 +1,4 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/laboratorio/Desktop/MaquinaVenda/MaquinaVenda.srcs/sources_1/new/MaquinaVenda.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity maquina_venda
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/laboratorio/Desktop/MaquinaVenda/MaquinaVenda.srcs/sim_1/new/tb_MaquinaVenda.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity tb_maquina_venda

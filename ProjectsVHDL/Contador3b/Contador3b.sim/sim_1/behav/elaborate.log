@@ -1,0 +1,15 @@
+Vivado Simulator 2015.1
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2015.1/bin/unwrapped/win64.o/xelab.exe -wto 778a166c330e41cf9f47bb5b16e444f8 --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_contador_behav xil_defaultlib.tb_contador -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package ieee.std_logic_1164
+Compiling architecture moore of entity xil_defaultlib.contador [contador_default]
+Compiling architecture behavioral of entity xil_defaultlib.tb_contador
+Waiting for 2 sub-compilation(s) to finish...
+Built simulation snapshot tb_contador_behav
