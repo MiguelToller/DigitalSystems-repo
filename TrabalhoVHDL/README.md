@@ -16,12 +16,13 @@ Este repositório contém uma coleção de projetos básicos em VHDL desenvolvid
 
 ## 1. Somador 2 Bits
 
-Este projeto implementa uma FSM do tipo Moore que detecta a sequência de bits `101` em uma entrada serial.
+Este projeto implementa um **somador de 2 bits** utilizando operações aritméticas com vetores `STD_LOGIC_VECTOR`.  
+O resultado da soma é representado em 3 bits para contemplar o possível carry.
 
 #### Resultados da Simulação
 
 ![Simulação do Somador 2b](https://github.com/MiguelToller/DigitalSystems-repo/blob/main/TrabalhoVHDL/Somador2b/somador2b.png)  
-*Figura 1: Simulação do Somador 2b mostrando a soma dos valores.
+*Figura 1: Simulação do Somador 2b mostrando os resultados das somas.*  
 
 #### Código Fonte
 <details>
@@ -94,12 +95,13 @@ end sim;
 
 ## 2. Detector de Sequência (FSM 5 bits)
 
-Uma FSM Moore que controla um semáforo de trânsito, ciclando entre os estados Verde, Amarelo e Vermelho com temporizadores.
+Este projeto implementa uma **FSM do tipo Moore** para detectar a sequência serial `11010`.  
+A saída `detect` é ativada quando a sequência é reconhecida corretamente.
 
 #### Resultados da Simulação
 
 ![Simulação do Detector](https://github.com/MiguelToller/DigitalSystems-repo/blob/main/TrabalhoVHDL/Detector_5b/detector_5b.png)
-*Figura 2: Simulação do semáforo mostrando a transição das luzes ao longo de vários segundos.*
+*Figura 2: Simulação do detector mostrando a ativação da saída após a sequência correta.*  
 
 #### Código Fonte
 
@@ -265,11 +267,11 @@ end sim;
 
 ## 3. Semáforo com Botão de Pedestre
 
-Uma FSM Moore que simula uma fechadura eletrônica. A porta abre (`aberta` = '1') por um ciclo de clock quando a sequência correta `1101` é inserida.
+Este projeto implementa uma **FSM Moore** que simula o funcionamento de um semáforo com botão para pedestres.  
 
 #### Resultados da Simulação
 ![Simulação do Semaforo](https://github.com/MiguelToller/DigitalSystems-repo/blob/main/TrabalhoVHDL/Semaforo/semaforo.png)
-*Figura 3: Simulação da porta mostrando a saída `aberta` sendo ativada após a senha correta.*
+*Figura 3: Simulação do semáforo mostrando a ativação do botão e o ciclo com vermelho estendido.*  
 
 #### Código Fonte
 <details>
