@@ -273,6 +273,27 @@ Este projeto implementa uma **FSM Moore** que simula o funcionamento de um semá
 ![Simulação do Semaforo](https://github.com/MiguelToller/DigitalSystems-repo/blob/main/TrabalhoVHDL/Semaforo/semaforo.png)
 *Figura 3: Simulação do semáforo mostrando a ativação do botão e o ciclo com vermelho estendido.*  
 
+### Diagrama de Estado
+
+| Estado Atual        | Condição                         | Próximo Estado      |
+|-------------------|---------------------------------|------------------|
+| S0 (Verde)         | btn=0 após 1 tempo               | S1 (Amarelo)      |
+| S0 (Verde)         | btn=1 após 1 tempo               | S1 (Amarelo)      |
+| S1 (Amarelo)       | sempre após 1 tempo              | S2 (Vermelho)     |
+| S2 (Vermelho)      | ciclo normal, 1 tempo passou     | S0 (Verde)        |
+| S2 (Vermelho)      | ciclo com botão, 1 tempo passou  | S3 (Vermelho Extra) |
+| S3 (Vermelho Extra)| após 1 tempo                     | S0 (Verde)        |
+
+### Tabela de Estado
+
+| Estado Atual       | Condição       | Próximo Estado      | Saídas (V A R) |
+|------------------|----------------|------------------|----------------|
+| S0 (Verde)        | após 1 tempo    | S1 (Amarelo)      | 1 0 0          |
+| S1 (Amarelo)      | após 1 tempo    | S2 (Vermelho)     | 0 1 0          |
+| S2 (Vermelho)     | btn=0           | S0 (Verde)        | 0 0 1          |
+| S2 (Vermelho)     | btn=1           | S3 (VermelhoX)    | 0 0 1          |
+| S3 (VermelhoX)    | após 1 tempo    | S0 (Verde)        | 0 0 1          |
+
 #### Código Fonte
 <details>
 <summary>Clique para ver o código do Design (semaforo.vhd)</summary>
