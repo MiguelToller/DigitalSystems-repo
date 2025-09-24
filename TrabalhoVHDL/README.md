@@ -275,7 +275,7 @@ Este projeto implementa uma **FSM Moore** que simula o funcionamento de um semá
 
 #### Código Fonte
 <details>
-<summary>Clique para ver o código do Design (porta.vhd)</summary>
+<summary>Clique para ver o código do Design (semaforo.vhd)</summary>
 
 ```vhdl
 library IEEE;
