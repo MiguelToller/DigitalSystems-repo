@@ -1,0 +1,15 @@
+Vivado Simulator 2015.1
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2015.1/bin/unwrapped/win64.o/xelab.exe -wto b676898e1a57428f8947984c5505357a --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_detector_5b_behav xil_defaultlib.tb_detector_5b -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package ieee.std_logic_1164
+Compiling architecture behavioral of entity xil_defaultlib.detector_5b [detector_5b_default]
+Compiling architecture sim of entity xil_defaultlib.tb_detector_5b
+Waiting for 2 sub-compilation(s) to finish...
+Built simulation snapshot tb_detector_5b_behav

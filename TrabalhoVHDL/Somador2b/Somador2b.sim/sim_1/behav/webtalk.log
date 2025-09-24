@@ -1,0 +1,15 @@
+#-----------------------------------------------------------
+# Webtalk v2015.1 (64-bit)
+# SW Build 1215546 on Mon Apr 27 19:22:08 MDT 2015
+# IP Build 1209967 on Tue Apr 21 11:39:20 MDT 2015
+# Start of session at: Wed Sep 24 08:28:56 2025
+# Process ID: 11856
+# Log file: C:/Users/laboratorio/Desktop/Somador2b/Somador2b.sim/sim_1/behav/webtalk.log
+# Journal file: C:/Users/laboratorio/Desktop/Somador2b/Somador2b.sim/sim_1/behav\webtalk.jou
+#-----------------------------------------------------------
+source C:/Users/laboratorio/Desktop/Somador2b/Somador2b.sim/sim_1/behav/xsim.dir/tb_somador2b_behav/webtalk/xsim_webtalk.tcl -notrace
+
+    while executing
+"webtalk_transmit -clientid 2305869352 -regid "213217756_0_0_327" -xml C:/Users/laboratorio/Desktop/Somador2b/Somador2b.sim/sim_1/behav/xsim.dir/tb_som..."
+    (file "C:/Users/laboratorio/Desktop/Somador2b/Somador2b.sim/sim_1/behav/xsim.dir/tb_somador2b_behav/webtalk/xsim_webtalk.tcl" line 41)
+INFO: [Common 17-206] Exiting Webtalk at Wed Sep 24 08:28:56 2025...

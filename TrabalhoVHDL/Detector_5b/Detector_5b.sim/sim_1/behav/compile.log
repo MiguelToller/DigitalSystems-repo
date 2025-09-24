@@ -1,0 +1,4 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/laboratorio/Desktop/Detector_5b/Detector_5b.srcs/sources_1/new/detector_5b.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity detector_5b
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/laboratorio/Desktop/Detector_5b/Detector_5b.srcs/sim_1/new/tb_detector_5b.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity tb_detector_5b
